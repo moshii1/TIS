@@ -1,0 +1,86 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    border: solid 1px;
+}
+.izquierda{
+    width: 30%;
+    height: 700px;
+}
+.derecha{
+    display: flex;
+    width:70%;
+    height: 700px;
+    background-image: url(wsp.jpg);
+    background-size: 100% 100%;
+}
+
+.barra{
+    height: 10%;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-left: 20px;
+    display: flex;
+    max-width:  55px;   
+    max-height: 55px;
+    padding: 10px;
+    
+}
+.iconos{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    color: rgb(141, 141, 141);
+}
+.notificacion{
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    gap: 110px;
+    background-color: rgb(137, 213, 226);
+}
+.buscar{
+    display: flex;
+    padding-left: 20px;
+    height: 10%;
+    background-color: rgb(216, 216, 216);
+    color: rgb(141, 141, 141);
+}
+.buscador{
+    background-color: white;
+    border: solid 1px rgb(177, 177, 177);;
+    width: 95%;
+    height: 45px;
+    margin-top: 10px;
+    align-content: center;
+}
+.chats{
+    height: 58.8%;
+    background-color: rgb(255, 255, 255);
+}
+
+.chat{
+    height: 19%;
+    display: flex;
+}
+hr{
+    margin: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: 20px;
+    color: rgb(141, 141, 141);
+}
+.hora{
+    color: rgb(141, 141, 141);
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+}

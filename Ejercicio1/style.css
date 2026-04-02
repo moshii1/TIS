@@ -1,0 +1,46 @@
+*{
+    font-family: Arial;
+}
+
+nav{
+    background-color: rgb(84, 84, 112);
+    padding: 20px;
+    margin: 0;
+}
+
+a{
+    color: white;
+    padding-right: 10px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.centrado{
+    margin: 50px;
+}
+
+#titulo-descripcion{
+    font-size: 17px;
+}
+
+section{
+    border: dashed;
+    background-color: rgb(131, 219, 136);
+    border-width: 1px;    
+    border-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+p{
+    color: grey;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
